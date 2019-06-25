@@ -22,9 +22,9 @@ That concludes static part of our web application
   [x] Create a JS folder  
   [x] Create script.js file  
   [x] Import that file to index.html file
-  [] Give button an on click event  
-  [] When user clicks on button, means onlclick event happens, call a function  
-  [] Give function a straightforward name. for example addItemToList  
+  [x] Give button an on click event  
+  [x] When user clicks on button, means onlclick event happens, call a function  
+  [x] Give function a straightforward name. for example addItemToList  
   [] Start defining logic in that addItemToList function  
   [] first create a variable named "todoTitle" to take and store user input  
   [] Second: create li element  
