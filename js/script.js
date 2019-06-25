@@ -1,7 +1,12 @@
 addItemToList = () => {
-    alert("Your function worked!");
-    console.log("Hey it worked");
+    var newtoDoTask = document.getElementById("todoInput").value;
+    console.log(newtoDoTask);
 };
+
+
+
+
+
 
 
 
