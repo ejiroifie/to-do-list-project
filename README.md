@@ -5,7 +5,7 @@
 ### Developing  Static Part  
 
 
-[] First create html boilerplate  
+[x] First create html boilerplate  
 [] Create div element to take user input for todo list item  
 [] Create Input element in that div element   
 [] Create "Add" Button   
