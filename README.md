@@ -19,9 +19,9 @@ That concludes static part of our web application
 
 ### Developing Logic (JavaScript part)   
 
-  [] Create a JS folder  
-  [] Create script.js file  
-  [] Import that file to index.html file
+  [x] Create a JS folder  
+  [x] Create script.js file  
+  [x] Import that file to index.html file
   [] Give button an on click event  
   [] When user clicks on button, means onlclick event happens, call a function  
   [] Give function a straightforward name. for example addItemToList  
