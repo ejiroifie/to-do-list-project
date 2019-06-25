@@ -10,7 +10,7 @@
 [x] Create Input element in that div element   
 [x] Create "Add" Button   
 [x] Create status list to let users know how their todo list will look like  
-[] Create style.css file in CSS folder  
+[X] Create style.css file in CSS folder  
 [] Import that style.css file in index.html file  
 [] Give some styles to div element, button and static list  
 
