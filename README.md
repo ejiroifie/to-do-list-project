@@ -6,7 +6,7 @@
 
 
 [x] First create html boilerplate  
-[] Create div element to take user input for todo list item  
+[x] Create div element to take user input for todo list item  
 [] Create Input element in that div element   
 [] Create "Add" Button   
 [] Create status list to let users know how their todo list will look like  
