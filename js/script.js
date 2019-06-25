@@ -1,6 +1,6 @@
 addItemToList = () => {
-    var newtoDoTask = document.getElementById("todoInput").value;
-    console.log(newtoDoTask);
+    var todoTitle = document.getElementById("todoInput").value;
+    console.log(todoTitle);
 };
 
 
