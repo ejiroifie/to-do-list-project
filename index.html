@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>ToDo List Project</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <div id= "wrapper">
@@ -9,18 +10,19 @@
             <h1>Todo List</h1>
             <!-- Taking user input -->
             <div id="userInput">
-                <input type="text" placeholder = "Add title for your todo.."/>
-                <button>Add</button>
+                <input id="todoInput" type="text" placeholder = "Add title for your todo.."/>
+                <button class="myButton">Add</button>
             </div>
 
-            <div id ="todo-list">
-                <ul>
-                    <li>Wake up</li>
-                    <li>Brush Teeth</li>
-                    <li>Take bath</li>
-                    <li>Go for a run</li>
-                </ul>
+            <div class="todo-list">
+                <ol>
+                    <li><a href="#">Wake up </a></li>
+                    <li><a href="#">Take bath </a></li>
+                    <li><a href="#"> Go for a run </a></li>
+                    <li><a href="#"> Brew coffee  </a></li>
+
+                </ol>
             </div>
-        </div>
+        </div>    
     </body>
 </html>

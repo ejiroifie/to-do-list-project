@@ -12,8 +12,8 @@
 [x] Create status list to let users know how their todo list will look like  
 [x] Create css folder
 [X] Create style.css file in CSS folder  
-[] Import that style.css file in index.html file  
-[] Give some styles to div element, button and static list  
+[x] Import that style.css file in index.html file  
+[x] Give some styles to div element, button and static list  
 
 That concludes static part of our web application    
 
