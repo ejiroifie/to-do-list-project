@@ -8,6 +8,7 @@ addItemToList = () => {
     li.appendChild(listText); //li =<li> "catch the bus"
 
     document.getElementById("todo-list-items").appendChild(li);
+    document.getElementById("todoInput").value ="";
 
 };
 

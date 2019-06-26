@@ -29,8 +29,9 @@ That concludes static part of our web application
   [x] first create a variable named "todoTitle" to take and store user input  
   [x] Second: create li element  
   [x] Append text node with variable todoTitle to that li element  
-  [] Get ol (by classname) where newly created li needs to be appended  
-  [] Will have to remove old user input with empty string
+  [x] Get ol (by classname) where newly created li needs to be appended  
+  [X] Will have to remove old user input with empty string
+  [] 
 
 
 
