@@ -25,10 +25,10 @@ That concludes static part of our web application
   [x] Give button an on click event  
   [x] When user clicks on button, means onlclick event happens, call a function  
   [x] Give function a straightforward name. for example addItemToList  
-  [] Start defining logic in that addItemToList function  
-  [] first create a variable named "todoTitle" to take and store user input  
-  [] Second: create li element  
-  [] Append text node with variable todoTitle to that li element  
+  [x] Start defining logic in that addItemToList function  
+  [x] first create a variable named "todoTitle" to take and store user input  
+  [x] Second: create li element  
+  [x] Append text node with variable todoTitle to that li element  
   [] Get ol (by classname) where newly created li needs to be appended  
   [] Will have to remove old user input with empty string
 
