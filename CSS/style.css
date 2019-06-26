@@ -122,5 +122,9 @@ h1{
     }
 
 
+/* For done items, strike through the done item */
+.done {
+    text-decoration: line-through;
+}
 
     
