@@ -31,10 +31,10 @@ That concludes static part of our web application
   [x] Append text node with variable todoTitle to that li element  
   [x] Get ol (by classname) where newly created li needs to be appended  
   [X] Will have to remove old user input with empty string    
-  [] If user clicks on any todo list item, it should strike through that item to show its done  
-  [] Get small delete button for all the list items  
+  [x] If user clicks on any todo list item, it should strike through that item to show its done  
+  [x] Get small delete button for all the list items  
   [] If user clicks on delete button, remove that item from list  
-  [] 
+  
 
 
 
