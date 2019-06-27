@@ -16,7 +16,9 @@ addItemToList = () => {
 };
 
 //Add Event listener for done items
-var list=document.getElementById("todo-list-items");
+//var list=document.getElementById("todo-list-items");
+
+// showing cordinates where user clicked on page 
 document.addEventListener (
     "click", 
     function (ev)  {
@@ -54,16 +56,35 @@ document.addEventListener (
 
     // appending paragraph to correct div element
     document.getElementById ("current-cordinates").appendChild(p);
-
-    alert(xCordinate + " " + yCordinate);
     },
-    
-false
+    false
 );
+    // alert(xCordinate + " " + yCordinate);
+    // },
+    
+    var list=document.getElementById("todo-list-items");
+    list.addEventListener (
+        "click", 
+        function(ev) {
+            //alert ("you clicked this item");
+            if (ev.target.tagName == "LI")
+            {
+               ev.target.classList.toggle ("done"); 
+            }
+        },
+
+        false
+
+    );
 
 
-
-
-
+// for console in browser: shortcuts is CTRL +SHIFT + I
+// for commenting code: shortcut is CTRL + K + C 
+// for selecting multiple same words or things at once shortcut is CTRL + D and once done, dont forget to press ESC
+// Debugging is very useful skill to have for Front End development. 
+// What is toggling? Car push start stop analogy 
+// Stuff to explore  
+// Play with element console window. CTRL + SHIFT + I the "Elements". Notice the changes being made by EventListener function 
+// Apply some line through CSS from internet. Show creativity for searching on Google.
 
 
